@@ -1,2 +1,4 @@
 .idea/
 migrationsgit status
+__pycache__
+
