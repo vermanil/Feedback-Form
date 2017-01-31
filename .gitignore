@@ -1,7 +1,8 @@
 .idea/
-migrationsgit status
-__pycache__
-feedbackForm/__pycache__/settings.cpython-35.pyc
-feedbackForm/__pycache__/urls.cpython-35.pyc
+migrations
+feedbackForm/__pycache__
+feedback/__pycache__
+
+
 
 

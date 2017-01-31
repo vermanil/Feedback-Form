@@ -6,4 +6,7 @@ def showBase(request):
     return render(request, 'feedback/form.html', {'Name':'Django'})
 
 def formProcess(request):
-    HttpResponse("hello world")
+    if request.method == 'POST':
+        print(request.POST.keys())
+        print(request.POST.get('name'))
+    return HttpResponse("submission")
